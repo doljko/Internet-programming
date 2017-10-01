@@ -1,0 +1,349 @@
+/******************************************
+    File Name: responsive.css
+    Template Name: EduPress
+    Created By: PSD Convert HTML Team
+    Envato Profile: http://themeforest.net/user/psdconverthtml
+    Website: https://psdconverthtml.com
+    Version: 1.0
+    Support: support@psdconverthtml.com
+/******************************************/
+
+@media (max-width: 1213px) {
+    .about-widget .customlist li {
+        width: 15%;
+    }
+    .friendbox img {
+        min-width: 100% !important;
+        float: none !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 100%;
+        max-width: 95%;
+    }
+    body.leftmenu #wrapper .container-fluid {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 920px) {
+    .hot {
+        display: none;
+    }
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 875px) {
+    .onecourse .big-title {
+        padding-left: 0;
+        border: 0;
+    }
+    .section-signup {
+        margin-top: 30px;
+    }
+    .onecourse .big-title h2 {
+        font-size: 42px;
+    }
+    .navbar-right {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .centermessage {
+        padding:50px 20px 20px;
+        background-color: rgba(24,37,50,0.8);
+    }
+    .centermessage p {
+        color:#ffffff;
+        font-size: 14px !important;
+    }
+    li.bbp-forum-info,
+    li.bbp-topic-title {
+        width: 100%;
+    }
+    .section-full .centermessage p,
+    .section-full .centermessage h2 {
+        font-size: 13px;
+    }
+    .yamm p {
+        color: #fff;
+    }
+    .yamm-content .menu-item li a,
+    .yamm-content .menu-item li {
+        color: rgba(255, 255, 255, 0.3) !important;
+    }
+    .yamm .yamm-content {
+        padding: 0;
+    }
+    .normal-header .dropdown-menu > li {
+        padding: 3px 0 !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .alignleft {
+        float: none;
+        margin: 5px 20px 20px 0;
+    }
+    .onecourse .big-title h2 {
+        font-size: 21px;
+    }
+    .m30 {
+        margin-top: 30px;
+    }
+    .demo-parallax {
+        padding: 14rem 0 5rem;
+    }
+    .demo-parallax h4 span,
+    .demo-parallax h4 {
+        font-size: 21px !important;
+    }
+    .service-list.text-center .widget-title h3 {
+        font-size: 18px;
+    }
+    .onecourse .big-title p,
+    .centermessage p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 992px) {
+    .m30 {
+        margin-top: 30px;
+    }
+    .normal-header.notfixmenu {
+        padding: 20px 0 0 !important;
+        background-color: #ffffff !important
+    }
+    hr.largeinvis {
+        border: 0;
+        margin: 30px 0;
+    }
+    .single-team-member {
+        margin: 15px 0;
+    }
+    .redbg .team-member-link {
+        display: none;
+    }
+    .custom-list .col-md-6:nth-child(4),
+    .custom-list .col-md-6:nth-child(3),
+    .custom-list .col-md-6:nth-child(1),
+    .custom-list .col-md-6:nth-child(2) {
+        border: 0 !important;
+    }
+    .blog-wrapper,
+    .video-wrapper,
+    .service-list .widget {
+        margin: 15px 0;
+    }
+    .navbar-default .navbar-toggle {
+        background-color: transparent !important;
+        border-color: transparent !important;
+        border-radius: 0;
+        margin-top: 8px;
+    }
+    .normal-header {
+        background-color: #182532;
+        padding: 20px 0 0 !important;
+    }
+    .navbar-default {
+        background-color: #182532;
+        padding: 0 0 20px;
+        right: 0;
+        top: 0;
+        border-bottom: 0;
+        width: 100%;
+        z-index: 10;
+    }
+    .dark-header {
+        background-color: #121212 !important;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: rgba(255, 255, 255, 0.2);
+    }
+    .normal-header .dropdown-menu > li,
+    .normal-header .dropdown-menu > li a {
+        padding-left: 10px;
+    }
+    .normal-header .navbar-nav > li > a {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .yamm-fw {
+        position: relative;
+    }
+    .yamm-fw:hover > ul {
+        visibility: visible;
+        opacity: 1;
+        top: 100%;
+    }
+    .navbar-nav .yamm-fw ul {
+        -webkit-transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+        -moz-transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+        -o-transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+        transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+    }
+    .yamm-fw .dropdown-menu {
+        min-width: 240px;
+        padding: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+    .yamm-fw > ul {
+        position: absolute;
+        top: 130%;
+        visibility: hidden;
+        display: block;
+        opacity: 0;
+        left: 0;
+    }
+    .yamm-fw > ul.start-right {
+        right: 0;
+        left: auto;
+    }
+    .yamm-fw > ul li {
+        position: relative;
+    }
+    .yamm-fw > ul li:hover > ul {
+        visibility: visible;
+        opacity: 1;
+        left: 100%;
+    }
+    .yamm-fw > ul li:hover > ul.show-right {
+        right: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .normal-header.affix {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        padding: 15px 0 !important;
+        width: 100%;
+        background-color: #27293d !important;
+    }
+    .normal-header.affix.dark-header {
+        background-color: #121212 !important
+    }
+    .normal-header.notfixmenu {
+        background-color: #ffffff !important
+    }
+    .normal-header .navbar-collapse {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .normal-header .hasmenu:hover > ul {
+        visibility: visible;
+        opacity: 1;
+        top: 100%;
+    }
+    .normal-header .navbar-nav .hasmenu ul {
+        -webkit-transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+        -moz-transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+        -o-transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+        transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+    }
+    .normal-header .hasmenu .dropdown-menu {
+        min-width: 220px;
+        padding: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+    .normal-header .hasmenu > ul {
+        position: absolute;
+        top: 130%;
+        visibility: hidden;
+        display: block;
+        opacity: 0;
+        left: 0;
+    }
+    .normal-header .hasmenu > ul.start-right {
+        right: 0;
+        left: auto;
+    }
+    .normal-header .hasmenu > ul li {
+        position: relative;
+    }
+    .normal-header .hasmenu > ul li:hover > ul {
+        visibility: visible;
+        opacity: 1;
+        left: 100%;
+    }
+    .normal-header .hasmenu > ul li:hover > ul.show-right {
+        right: 100%;
+    }
+    .normal-header .navbar-nav .has-submenu {
+        position: relative;
+    }
+    .normal-header .navbar-nav .has-submenu:hover > ul {
+        visibility: visible;
+        opacity: 1;
+        top: 100%;
+    }
+    .normal-header .navbar-nav .has-submenu:hover > ul li ul {
+        margin-top: -1px;
+    }
+    .normal-header .navbar-nav .has-submenu ul {
+        -webkit-transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+        -moz-transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+        -o-transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+        transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out, top 0.35s ease-in-out, bottom 0.35s ease-in-out, left 0.35s ease-in-out, right 0.35s ease-in-out;
+    }
+    .normal-header .navbar-nav .has-submenu .dropdown-menu {
+        min-width: 220px;
+        padding: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+    .normal-header .navbar-nav .has-submenu > ul {
+        position: absolute;
+        top: 130%;
+        visibility: hidden;
+        display: block;
+        opacity: 0;
+        left: 0;
+    }
+    .normal-header .navbar-nav .has-submenu > ul.start-right {
+        right: 0;
+        left: auto;
+    }
+    .normal-header .navbar-nav .has-submenu > ul li {
+        position: relative;
+    }
+    .normal-header .navbar-nav .has-submenu > ul li:hover > ul {
+        visibility: visible;
+        opacity: 1;
+        left: 105%;
+    }
+    .normal-header .navbar-nav .has-submenu > ul li:hover > ul.show-right {
+        right: 100%;
+    }
+    .normal-header .navbar-nav .has-submenu > ul li ul {
+        position: absolute;
+        top: 0;
+        visibility: hidden;
+        display: block;
+        opacity: 0;
+        left: 130%;
+    }
+    .normal-header .navbar-nav .has-submenu > ul li ul.show-right {
+        right: 130%;
+        left: auto;
+    }
+}

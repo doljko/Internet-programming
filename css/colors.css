@@ -1,0 +1,136 @@
+/******************************************
+    File Name: colors.css
+    Template Name: EduPress
+    Created By: PSD Convert HTML Team
+    Envato Profile: http://themeforest.net/user/psdconverthtml
+    Website: https://psdconverthtml.com
+    Version: 1.0
+    Support: support@psdconverthtml.com
+/******************************************/
+
+.mejs-controls .mejs-time-rail .mejs-time-current {
+    background: #e74c3c !important;
+}
+
+#bbpress-forums li.bbp-footer,
+#bbpress-forums li.bbp-header,
+.fileupload .btn,
+.cart-body .panel-info > .panel-heading,
+.checkbox-primary input[type="checkbox"]:checked + label::before,
+.checkbox-primary input[type="radio"]:checked + label::before,
+.progress-bar-success,
+.course-table .fa-close,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+body.leftmenu .alignleftlist.service-list .widget:hover img.alignleft,
+.testi-carousel.owl-theme .owl-nav [class*="owl-"]:hover,
+.course-carousel.owl-theme .owl-nav [class*="owl-"]:hover,
+.redbg,
+.hot,
+.large-buttons .btn-primary,
+.demo-parallax .btn-inverse,
+.btn-primary {
+    background-color: #e74c3c !important;
+    border-color: #e74c3c !important;
+    color: #ffffff !important;
+}
+
+.aboutme .tagline h5,
+.copyrights .footer-social i:hover,
+.mark,
+mark {
+    background-color: #e74c3c !important;
+    color: #ffffff;
+}
+
+body.leftmenu .sidebar-nav li:active,
+body.leftmenu .sidebar-nav li.active,
+body.leftmenu .sidebar-nav li:focus,
+body.leftmenu .sidebar-nav li:hover {
+    border-right-color: #e74c3c;
+}
+
+div.bbp-template-notice a,
+.related-posts .entry small,
+.notfound p a,
+blockquote .small,
+blockquote footer,
+blockquote small,
+.course-table .fa-question-circle,
+.course-table .fa-play-circle,
+.video-wrapper .widget-title .btn-inverse,
+.awards small,
+.colorized h3,
+.team-member-name span,
+.service-style2 h3,
+.conecourse hr.customhr::before,
+.custom_fact_item h6,
+.blog-wrapper .blog-meta a i,
+.check li .fa-circle-o,
+.service-list span,
+.about-widget span,
+.yamm-content li:hover a,
+.copyrights p a,
+.testibox small a,
+a:hover,
+a:focus,
+.fa-heart,
+.copyrights li:hover a {
+    color: #e74c3c !important;
+}
+
+.yamm hr,
+.form-control:focus {
+    border-color: #e74c3c !important;
+}
+
+::-moz-selection {
+    color: #ffffff;
+    text-shadow: none;
+    background: #e74c3c;
+}
+
+::selection {
+    color: #ffffff;
+    text-shadow: none;
+    background: #e74c3c;
+}
+
+#superslides .slides-navigation a.next,
+#superslides .slides-navigation a.prev,
+.service-list .widget:hover .alignleft,
+.looking-photo .centermessage .btn:hover,
+.looking-photo .centermessage .btn:focus,
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #c0392b !important;
+    border-color: #c0392b !important;
+    color: #ffffff !important;
+}
+
+
+/** GREEN **/
+
+.owl-theme .owl-nav [class*="owl-"]:hover,
+.owl-theme .owl-nav [class*="owl-"]:focus,
+.course-table .fa-check,
+.btn-default,
+.greenbg,
+.magnifier .magni-desc .secondicon,
+.magnifier .magni-desc .firsticon,
+.cartmenu sup,
+.navbar-right li.btn {
+    background-color: #27ae60;
+    border-color: #27ae60;
+    color: #ffffff;
+}
+
+.btn-default.active,
+.btn-default:active,
+.open > .dropdown-toggle.btn-default,
+.btn-default:focus,
+.btn-default:hover {
+    background-color: #1ca355 !important;
+    border-color: #1ca355 !important;
+    color: #fff !important;
+}
